@@ -41,7 +41,7 @@ const App=()=>{
   useEffect(()=>{
     if(mounted.current){
       setValue(value+1)
-      setTimeout(()=>change(),50)
+      setTimeout(()=>change(),1000)
     }
     if(value>=20){
       mounted.current = false
